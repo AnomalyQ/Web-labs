@@ -1,0 +1,95 @@
+.box-gradient-1, .box-gradient-2, .box-2-gradient-1, .box-2-gradient-2{
+	display: flex;
+	flex-direction: row;
+}
+.box-1-content-1{
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to bottom, #ffc552, #fff);
+	border: 1px solid;
+	margin-right: 10px;
+}
+.box-1-content-2{
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to right, #ffc552, #fff);
+	border: 1px solid;
+	margin-right: 10px
+}
+.box-1-content-3{
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to left, #ffc552, #fff);
+	border: 1px solid;
+}
+.box-1-content1-1{
+	width: 306px;
+	height: 200px;
+	margin-right: 10px;
+	margin-top: 10px;
+	background: linear-gradient(#ff0000 0 ,#ff0000 50%, #fff 50%);
+	background-size: 100% 140px;
+	border: 1px solid;
+}
+.box-1-content1-2{
+	width: 306px;
+	height: 200px;
+	margin-top: 10px;
+	background: linear-gradient(to right, #ff0000 0,#0000ff 55%,#fff 88%, #f80000 99%);
+	border: 1px solid;
+}
+ .box-1, .box-2{
+ 	margin-bottom: 100px;
+ }
+ .box-2-content-1{
+ 	width: 200px;
+ 	height: 200px;
+ 	margin-right: 10px;
+ 	border: 1px solid;
+ 	background: radial-gradient(#99e6ff 0, #42aaff 60%);
+ }
+ .box-2-content-2{
+ 	width: 400px ;
+ 	height: 200px;
+ 	border: 1px solid;
+ 	background: radial-gradient(#99e6ff 0, #42aaff 60%);
+ }
+ .box-2-content1-1{
+ 	width: 350px;
+ 	height: 180px;
+ 	border: 1px solid;
+ 	margin-right: 10px;
+ 	margin-top: 10px;
+ 	background: radial-gradient(circle at 40px 40px, #99e6ff, #42aaff 15%);
+ }
+ .box-2-content1-2{
+ 	width: 350px;
+ 	height: 180px;
+ 	border: 1px solid;
+ 	margin-top: 10px;
+ 	background: radial-gradient(circle,#333, #333 5%,#fff 12%, #008000 20%)
+ }
+ .box3{
+ 	display: flex;
+ 	flex-direction: column;
+ }
+ .box-3-content-1{
+ 	width: 350px;
+ 	height: 100px;
+ 	border: 1px solid;
+ 	margin-bottom: 10px;
+ 	background: repeating-linear-gradient(#000000, #000000 4px, #fff 4px, #fff 8px );
+ }
+ .box-3-content-2{
+ 	width: 350px;
+ 	height: 50px;
+ 	border: 1px solid;
+ 	margin-bottom: 10px;
+ 	background: repeating-linear-gradient(45deg, #fff, #fff 4px, #ff0000 4px, #ff0000 8px);
+ }
+ .box-3-content-3{
+ 	width: 350px;
+ 	height: 400px;
+ 	border: 1px solid;
+ 	background: repeating-radial-gradient(circle ,#000000, #000000 4px, #fff 4px, #fff 8px)
+ }

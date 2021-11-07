@@ -1,0 +1,10 @@
+.main{
+	display: flex;
+	flex-direction: row;
+}
+div{
+	margin: 5px;
+}
+p{
+	margin: 0;
+}

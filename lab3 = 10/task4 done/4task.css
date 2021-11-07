@@ -1,0 +1,28 @@
+.header{
+	background: #c39eff;
+	text-align: center;
+	color: white;
+	width: 100%;
+	position: fixed;
+	font-size: 20px;
+	z-index: 10;
+
+}
+body{
+	margin: 0;
+}
+.main{
+	position:absolute;
+	margin-top: 50px;
+	width: 100%; 
+}
+.div{
+	margin: 70px;
+	border: 1px solid;
+	display: flex;
+	flex-direction: column;
+}
+p{
+	margin-left: 20px;
+	margin-right: 20px;
+}

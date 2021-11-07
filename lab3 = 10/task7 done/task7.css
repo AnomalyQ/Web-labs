@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+}
+.nav{
+	margin:0;
+	background-color:#444;
+	height: 30px;
+	line-height: 30px;
+
+}
+li a, li span{
+	text-decoration: none;
+	color: #fff;
+	margin:10px;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type:none;
+	position: absolute;
+	padding-left: 0;
+}
+.nav-v{
+	visibility: hidden;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	background-color:#444;
+	width: 100%;
+}
+.li-v{
+	position: relative;
+}
+.li-v:hover .nav-v{
+	visibility: visible;
+}
+.nav-con{
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<style type="text/css">
+		main{
+			font-family: arial;
+		}
+	</style>
+
+	<meta charset="utf-8">
+	<title>Задание 2</title>
+</head>
+<body>
+	<main>
+		<input type="button" id="button" value="Нажми и увидишь чудо!" >
+		<h2 class="pr">Заголовок 1</h2>
+		<p class="pr">Абзац 1 </p>
+		<p class="pr">Абзац 2</p>
+		<p>Абзац без изменений</p>
+
+		<script type="text/javascript">
+			let pr = document.querySelectorAll('.pr');
+			document.getElementById('button').onclick = function(fn){
+			for (i = 0; i < pr.length; i++){
+				pr[i].innerHTML = i+1;
+			}}
+		</script>
+
+	</main>
+</body>
+</html>

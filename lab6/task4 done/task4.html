@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Задание 4</title>
+	<link rel="stylesheet" type="text/css" href="task4.css">
+</head>
+<body>
+	<main>
+		<div class="main">
+			<div><input type="text" id="sum1"></div>
+			<div><p>+</p></div>
+			<div><input type="text" id="sum2"></div>
+			<div><p>=</p></div>
+			<div><p class="sum">?</p></div>
+		</div>
+		<div><input type="button" id="button" value="Нажми для получения суммы!"></div>
+		<script type="text/javascript">
+			let sum = document.querySelector('.sum');
+			document.getElementById('button').onclick =  function(){
+				let num1 = document.getElementById('sum1').value;
+				let num2 = document.getElementById('sum2').value;
+				sum.innerHTML = Number(num1) + Number(num2);	
+			}
+		</script>
+	</main>
+</body>
+</html>

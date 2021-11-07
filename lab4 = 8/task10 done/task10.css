@@ -1,0 +1,30 @@
+img{
+	width: 300px;
+	height: 300px;
+	margin-right: 10px;
+}
+.content{
+	display: flex;
+	flex-direction: row;
+}
+.content1{
+	margin-right: 50px;
+}
+.grauscale{
+	filter: grayscale(100%);
+}
+.saturate{
+	filter: saturate(50%);
+}
+.invert{
+	filter: invert(100%);
+}
+.sepia{
+	filter: sepia(100%);
+}
+.hue-rotate{
+	filter: hue-rotate(100deg);
+}
+.contrast{
+	filter: contrast(50%);
+}

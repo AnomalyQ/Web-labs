@@ -1,0 +1,28 @@
+.both{
+	resize: both;
+	margin-bottom: 40px;
+	width: 200px;
+	height: 100px;
+}
+.none{
+	resize: none;
+	margin-bottom: 40px;
+	width: 200px;
+	height: 100px;
+}
+.horizontal{
+	resize: horizontal;
+	margin-bottom: 40px;
+	width: 200px;
+	height: 100px;
+}
+.vertical{
+	resize: vertical;
+	margin-bottom: 40px;
+	width: 200px;
+	height: 100px;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+}

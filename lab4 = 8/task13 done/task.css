@@ -1,0 +1,43 @@
+h2,p{
+	font-family: Helvetica;
+}
+p{
+	font-size: 15px;
+}
+.con1{
+	text-align: center;
+}
+.con2{
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.con1-1, .con1-2, .con1-3{
+	background-color: #ffc0cb;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.con1-1, .con1-2{
+	margin-right: 10px;
+}
+.color1, .color2, .color3{
+	flex: 1 0 100px;
+	height: 80px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+
+}
+.color1{
+	background-color: #ff8fa2;
+}
+.color2{
+	background-color: #42aaff;
+}
+.color3{
+	background-color: #00e600;
+}
+.text{
+	justify-content: center;	
+}

@@ -1,0 +1,31 @@
+nav a{
+	text-decoration: none;
+	font-family: arial;
+	color: #333;
+}	
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+button{
+	background-color: #b3b3b3;
+	border-radius: 1em;
+	border: 1px solid #b3b3b3;
+	width: 6em;
+	height: 3em;	
+	box-shadow: 0.1em 0.1em 0.1em #b3b3b3;
+	margin-right: 20px;
+	padding: 1em;
+	line-height: 1em;
+}
+.button1{
+	font-size: 20px;
+}
+.button2{
+	font-size: 30px;
+}
+.button3{
+	font-size: 40px;
+}

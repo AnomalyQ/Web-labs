@@ -1,0 +1,28 @@
+body{
+	background-color: #f8f8f8;
+	margin: 0px;
+}
+.form{
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	width: 320px;
+	height: 320px;
+}
+input,button{
+    font-size: 17px;
+    margin: 7.5px;
+    height: 35px;
+}
+input{
+    border: solid 1px #ccc;
+}
+button{
+	background-color: #1cbc11;
+	color:#fff;
+	border:none;
+	cursor:pointer;
+}
+button:hover {
+    background-color: #14a20a;
+}

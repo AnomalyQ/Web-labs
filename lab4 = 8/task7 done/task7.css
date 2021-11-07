@@ -1,0 +1,19 @@
+.shadow1, .shadow2, .shadow3{
+	width: 200px;
+	height: 200px;
+	border: 1px solid;
+	margin: 80px
+}
+.con{
+	display: flex;
+	flex-direction: column;
+}
+.shadow1{
+	box-shadow: 30px 30px 3px #808080;
+}
+.shadow2{
+	box-shadow: 30px 30px 3px #808080, -30px -30px 3px #808080;
+}
+.shadow3{
+	box-shadow: inset 3px 3px 3px 3px #808080;
+}

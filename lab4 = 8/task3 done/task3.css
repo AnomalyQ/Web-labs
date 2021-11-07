@@ -1,0 +1,23 @@
+span{
+	font-family: arial;
+}
+.text1{
+	text-decoration-color: #00008b;
+	text-decoration-style: wavy;
+	text-decoration-line: underline;
+}
+.text2{
+	text-decoration-color: #ffc0cb;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+}
+.text3{
+	text-decoration-color: #008000;
+	text-decoration-line: underline;
+	text-decoration-style: dashed;
+}
+.text4{
+	text-decoration-line: underline;
+	text-decoration-color: #ff0000;
+	text-decoration-style: double;
+}

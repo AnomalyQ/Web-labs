@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Задание 3</title>
+</head>
+<body>
+	<main>
+		<p class="p">При нажатии на кнопку текст в абзаце измениться.</p>
+		<input type="button" id="button" value="Нажмите на меня!">
+
+		<script type="text/javascript">
+			let p = document.querySelector('.p');
+			document.getElementById('button').onclick =  function(fun){
+				p.innerHTML = "Изменился и стал" + " жирным!".bold();
+			}
+		</script>
+		
+	</main>
+</body>
+</html>

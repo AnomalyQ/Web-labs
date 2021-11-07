@@ -1,0 +1,28 @@
+.pole1{
+	width: 200px;
+	height: 200px;
+	border: 1px solid;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+.pole2{
+	width: 200px;
+	height: 200px;
+	border: 1px solid;
+	margin-bottom: 40px;
+	cursor: progress;
+}
+.pole3{
+	width: 200px;
+	height: 200px;
+	border: 1px solid;
+	margin-bottom: 40px;
+	cursor: wait;
+}
+.pole4{
+	width: 200px;
+	height: 200px;
+	border: 1px solid;
+	margin-bottom: 40px;
+	cursor: url(stealth2_pen.cur), pointer;
+}

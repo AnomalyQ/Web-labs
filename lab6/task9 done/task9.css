@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+}
+#background{
+	width: 600;
+	height: 400;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#planet-1{
+	position: absolute;
+	top: 23px;
+	left: 180px;
+	z-index: 1;
+}
+#planet-2{
+	position: absolute;
+	top: 65px;
+	left: 50px;
+	z-index: 2;
+}
+#planet-3{
+	position: absolute;
+	z-index: 3;
+	top: 140px;
+	left: 140px;
+}
+#buttonCon{
+	position: absolute;
+	z-index: 4;
+	left: 200px;
+	top: 200px;
+}
+#startButton{
+	height: 40px;
+	width: 100px;
+	color: pink;
+	border-radius: 1em;
+	background-color: #fe8b77;
+}
+#ufo{
+	position: absolute;
+	left: 70px;
+	top: 100px;
+	z-index: 4;
+}
+#asteroid{
+	position: absolute;
+	left: 150px;
+	top: 100px;
+	z-index: 4;
+}
+#spaceship{
+	position: absolute;
+	left: 230px;
+	top: 100px;
+	z-index: 4;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Задание 9</title>
+	<link rel="stylesheet" type="text/css" href="task9.css">
+</head>
+<body>
+	<main>
+		<img src="img/bg.jpg" alt="background" id="background">
+		<img src="img/planet-1.png" alt="planet-1" id="planet-1">
+		<img src="img/planet-2.png" alt="planet-2" id="planet-2">
+		<img src="img/planet-3.png" alt="planet-3" id="planet-3">
+		<div id="carousel">
+			<img src="img/ufo.png" alt="ufo" id="ufo">
+			<img src="img/asteroid.png" alt="asteroid" id ="asteroid">
+			<img src="img/spaceship.png" alt="spaceship" id="spaceship">
+		</div>
+		<div id="buttonCon">
+			<button id="startButton">Полетели</button>
+		</div>
+		<script type="text/javascript">
+			let startButton = document.getElementById('startButton');
+			let img_1 = document.getElementById('ufo');
+			let img_2 = document.getElementById('asteroid');
+			let img_3 = document.getElementById('spaceship');
+
+			function moveImg(){
+				let srcImg_1 = img_1.src;
+				img_1.src = img_2.src;
+				img_2.src = img_3.src;
+				img_3.src = srcImg_1;
+			}
+
+			startButton.onclick = function (){
+				setInterval(moveImg, 1000)
+			}
+		</script>
+	</main>
+</body>
+</html>

@@ -1,0 +1,131 @@
+.bg {
+    background: #b1c5d1;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.house {
+    width: 300px;
+    height: 100px;
+    background: #fff;
+    position: relative;
+    left: 100px;
+    top: 120px
+}
+.house::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+    border-left: 210px solid #B22222;
+    border-right: 50px solid #b1c5d1;
+    border-bottom: 20px solid #B22222;
+}
+
+.house::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    bottom: 110px;
+    border-left: 100px solid #B22222;
+    border-right: 50px solid #B22222;
+    border-bottom: 30px solid #B22222;
+}
+.house_window {
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    position: relative;
+    top: 25px;
+    left: 50px;
+    background: #333;
+}
+#window{
+    visibility: hidden;
+}
+.tower {
+    width: 100px;
+    height: 160px;
+    background: #fff;
+    position: relative;
+    left: 100px;
+    top: 120px
+}
+
+.tower::before {
+    content: '';
+    display: inline-block;
+    border-left: 50px solid #b1c5d1;
+    border-right: 50px solid #b1c5d1;
+    border-bottom: 60px solid #B22222;
+}
+
+.tower::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+    background: #333;
+}
+.cloud {
+    width: 200px;
+    height: 60px;
+    background: #fff;
+    border-radius: 100px;
+    position: relative;
+}
+
+.cloud:before, .cloud:after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.cloud:after {
+    width: 120px;
+    height: 120px;
+    top: -45px;
+    right: 15px;
+}
+
+.cl1 {
+    top: -180px;
+    animation: movecloud1 5s linear infinite;
+}
+
+.cl2 {
+    top: -150px;
+    transform: scale(0.6);
+    animation: movecloud2 7s linear infinite;
+}
+
+.cl3 {
+    top: -170px;
+    transform: scale(0.5);
+    animation: movecloud3 8s linear infinite;
+}
+
+@keyframes movecloud1 {
+    from {left: -280px;}
+    to {left: 500px;}
+}
+
+@keyframes movecloud2 {
+    from {left: -160px;}
+    to {left: 500px;}
+}
+
+@keyframes movecloud3 {
+    from {left: -320px;}
+    to {left: 500px;}
+}

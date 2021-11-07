@@ -1,0 +1,27 @@
+ul{
+	list-style-type:none;
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+}
+body{
+	margin: 0;
+}
+li a{
+	text-decoration: none;
+	color: #0b56ea;
+}
+li a:hover{
+	text-decoration: underline;
+}
+.last{
+	color: #333;
+}
+li{
+	font-family: arial;
+}
+.crumb li:not(:last-child)::after{
+    color: #333;
+    content: "\003E";
+    padding: 3px;
+}

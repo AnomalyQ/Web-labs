@@ -1,0 +1,28 @@
+div{
+	margin-bottom: 40px;
+}
+span{
+	font-family: arial;
+	font-size: 20px;
+}
+.text1{
+	text-shadow: 6px 16px #cccccc;
+}
+.text2{
+	text-shadow: 6px 16px 2px #cccccc;
+}
+.text3{
+	text-shadow: -3px -8px 2px #0000ff, 3px 8px 2px #ff0000 ; 	
+}
+.text4{
+	color: #fff;
+	text-shadow: 1px 1px 0px #d3d3d3;
+}
+.text5{
+	color: #333;
+	text-shadow: 1px 1px 0px #666;
+}
+.text6{
+	color: #F4A460;
+	text-shadow: 0 0 3px #000000;
+}

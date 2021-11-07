@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Задание 8</title>
+
+	<style type="text/css">
+		.progressCon{
+			display: flex;
+			flex-direction: row;
+			margin: 10px;
+		}
+		p{
+			margin: 0;
+			margin-left: 10px;
+		}
+		button{
+			margin-left: 10px;
+			color: white;
+			background-color: blue;
+			border: 0;
+			height: 30px;
+			font-family: arial;
+		}
+		#prog{
+			margin: 0;
+		}
+	</style>
+
+</head>
+<body>
+	<main>
+		<p><b>Прогоресс-бар</b></p>
+		<div class='progressCon'>
+			<progress id="progressBar" value="0" max="100"></progress>
+			<p id="progressNum">0</p><p id="prog">%.</p>
+		</div>
+		<button id="buttonProgress"><b>Увеличить значение</b></button>
+	</main>
+
+	<script type="text/javascript">
+		let progressBar = document.getElementById('progressBar');
+		let buttonProgress = document.getElementById('buttonProgress');
+		let progressNum = document.getElementById('progressNum');
+
+		buttonProgress.onclick = function() {
+			progressBar.value = progressBar.value + 5;
+			progressNum.innerHTML = Number(progressNum.innerHTML) + Number(5);
+			
+			if(progressNum.innerHTML == 100){
+				buttonProgress.remove();
+				document.getElementById('prog').innerHTML = '%. Максимум.';
+			}
+		}
+		
+
+	</script>
+</body>
+</html>
